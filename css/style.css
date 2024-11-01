@@ -1,0 +1,46 @@
+#args_form select{
+	display: block;
+	width: 100%;
+}
+
+
+ol {
+	list-style-type: decimal;
+	margin-left: 25px;	
+	background: #fff;
+	height: auto;
+	display: inline-block;
+	padding: 2px 5px;
+	min-width: 92%;
+	color: #999; 
+}
+
+pre {
+	overflow: auto;
+	white-space: pre-wrap;                 /* CSS3 browsers  */
+	white-space: -moz-pre-wrap !important; /* 1999+ Mozilla  */
+	white-space: -pre-wrap;                /* Opera 4 thru 6 */
+	white-space: -o-pre-wrap;              /* Opera 7 and up */
+	word-wrap: break-word;                 /* IE 5.5+ and up */
+}
+
+ol li {
+	padding-left: 9px;
+	color: #CFC9C9;
+}
+
+/*
+ol { counter-reset: item }
+li { display: block }
+li:before { 
+	content: counter(item) ". "; 
+	counter-increment: item;
+    color: red; 
+}*/
+
+code {font-family:consolas !important;background: transparent !important;}
+
+*, ::marker {
+    background-color: white;
+    color: black;
+}
